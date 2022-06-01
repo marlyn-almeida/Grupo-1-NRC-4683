@@ -22,26 +22,36 @@ int main(int argc, char** argv) {
 	
 	typedef int (WINAPI *Validar)(char*);
 	Validar validar;
-	
+	bool verificar=true;
 	HINSTANCE libDLL=NULL;
 	libDLL = LoadLibrary ("Proyecto 1.dll");
 	int a,b,c,d;
 	
 	validar=(Validar)GetProcAddress(libDLL,"ingresarDatos_Int_N_P");
 	
-	a = validar("\nIngrese numero 1: ");
-	b = validar("\nIngrese numero 2: ");
-	c = validar("\nIngrese numero 3:");
-	d = validar("\nIngrese numero 4:");
+	while(verificar){
+		printf("\n=======Fracciones=======\n");
+		
+		a = validar("\nIngrese numero 1: ");
+		b = validar("\nIngrese numero 2: ");
+		c = validar("\nIngrese numero 3:");
+		d = validar("\nIngrese numero 4:");
 	
-	printf("\n=======Fracciones=======\n");
+		printf("\n=======Fracciones=======\n");
 	
-	Cproceso *obj1=new Cproceso(a,b);
-	Cproceso *obj2=new Cproceso(c,d);
-	Cproceso *obj3=new Cproceso(d,d);
-	*obj3 = obj3->racional(*obj1,*obj2);
-	obj1->imprimirObj(*obj1);
-	obj2->imprimirObj(*obj2);
-	obj3->imprimirObj(*obj3);
+		Cproceso *obj1=new Cproceso(a,b);
+		Cproceso *obj2=new Cproceso(c,d);
+		Cproceso *obj3=new Cproceso(d,d);
+		*obj3 = obj3->racional(*obj1,*obj2);
+		obj1->imprimirObj(*obj1);
+		obj2->imprimirObj(*obj2);
+		obj3->imprimirObj(*obj3);
+		
+		a=validar("\n==============\n1. Repetir\n(Otro). Salir\n==============\nIngrese Opcion: ");
+		if(a!=1){
+			verificar=false;
+		}
+	}
+	
 	return 0;
 }

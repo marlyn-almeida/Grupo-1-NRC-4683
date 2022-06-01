@@ -26,29 +26,32 @@ int main()
 	HINSTANCE libDLL=NULL;
 	libDLL = LoadLibrary ("Proyecto 1.dll");
 	validar=(Validar)GetProcAddress(libDLL,"ingresarDatos_Float");
-	
+	bool verificar=true;
     float datoUse;
     Datos datos;
     
-	datoUse = validar("\nIngrese valor 1: ");
-    datos.setValor1(datoUse);
-    datoUse = validar("\nIngrese valor 2: ");
-    datos.setValor2(datoUse);
-    datoUse = validar("\nIngrese valor 3: ");
-    datos.setValor3(datoUse);
-    datoUse = validar("\nIngrese valor 4: ");
-    datos.setValor4(datoUse);
+    while(verificar){
+    	datoUse = validar("\nIngrese valor 1: ");
+    	datos.setValor1(datoUse);
+    	datoUse = validar("\nIngrese valor 2: ");
+    	datos.setValor2(datoUse);
+    	datoUse = validar("\nIngrese valor 3: ");
+    	datos.setValor3(datoUse);
+    	datoUse = validar("\nIngrese valor 4: ");
+    	datos.setValor4(datoUse);
 
-    Operaciones operaciones;
-    //Suma
-    printf("\nSuma de 2 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2()));
-    printf("Suma de 3 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2(),datos.getValor3()));
-    printf("Suma de 4 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2(),datos.getValor3(),datos.getValor4()));
-    printf("Suma de 4 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2(),datos.getValor3(),datos.getValor4()));
-
-
-
-
-
+   		 Operaciones operaciones;
+    	//Suma
+    	printf("\nSuma de 2 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2()));
+    	printf("Suma de 3 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2(),datos.getValor3()));
+    	printf("Suma de 4 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2(),datos.getValor3(),datos.getValor4()));
+    	printf("Suma de 4 numeros : %.2f \n",operaciones.suma(datos.getValor1(),datos.getValor2(),datos.getValor3(),datos.getValor4()));
+    
+    	datoUse=validar("\n==============\n1. Repetir\n(Otro). Salir\n==============\nIngrese Opcion: ");
+    		if(datoUse!=1){
+				verificar=false;
+			}
+		}
+  
     return 0;
 }

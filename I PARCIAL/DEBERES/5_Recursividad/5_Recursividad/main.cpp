@@ -27,20 +27,27 @@ int main(int argc, char** argv) {
 	libDLL = LoadLibrary ("Proyecto 1.dll");
 	validar=(Validar)GetProcAddress(libDLL,"ingresarDatos_Int_P");
 	Operacion *OP=new Operacion;
-	
-	
+	bool verificar = true;
 	int n;
 	
-	n = validar("\nIngrese un numero del 1 al 19: ");
-	while(n>19||n==0){
+	while(verificar){
+    	
 		n = validar("\nIngrese un numero del 1 al 19: ");
+		while(n>19||n==0){
+			n = validar("\nIngrese un numero del 1 al 19: ");
+		}
+		for(int i=1;i<=n;i++){
+			printf("\nSUMA = %d ",OP->suma(i));
+			printf(" - factorial = %d",OP->factorial(i));
+		}
+    	n=validar("\n==============\n1. Repetir\n(Otro). Salir\n==============\nIngrese Opcion: ");
+    	if(n!=1){
+			verificar=false;
+		}
 	}
-
 	
-	for(int i=1;i<=n;i++){
-		printf("\nSUMA = %d ",OP->suma(i));
-		printf(" - factorial = %d",OP->factorial(i));
-	}
+	
+	
 	return 0;
 }
 

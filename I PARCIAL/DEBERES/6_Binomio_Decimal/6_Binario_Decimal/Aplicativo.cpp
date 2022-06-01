@@ -35,20 +35,28 @@ int main(int argc, char** argv) {
 	validar=(Validar)GetProcAddress(libDLL,"ingresarDatos_Int_N_P");
 	validar_b=(Validar_B)GetProcAddress(libDLL,"ingresarDatos_Binario");
 	
+	bool verificar = true;
 	char *cad=new char;
 	*cad = {'\0'};
 	int date,date_Use;
 	int num=0,num1=0;
 
 	Proceso Proceso;
+	while(verificar){
+    	
+    	
+		date= validar("\nIngrese Decimal: ");
+		date_Use= validar_b("\nIngrese Binario: ");
+		cout<<"\nDecimal a binario  :";
+		Proceso.decimalBinario(date,cad);
 	
-	date= validar("\nIngrese Decimal: ");
-	date_Use= validar_b("\nIngrese Binario: ");
-	cout<<"\nDecimal a binario  :";
-	Proceso.decimalBinario(date,cad);
-	
-	cout<<"\nBinario a Decimal  :";
-	Proceso.BinarioDecimal(date_Use,num,num1);
+		cout<<"\nBinario a Decimal  :";
+		Proceso.BinarioDecimal(date_Use,num,num1);
+    	date=validar("\n==============\n1. Repetir\n(Otro). Salir\n==============\nIngrese Opcion: ");
+    	if(date!=1){
+			verificar=false;
+		}
+	}
 	
 	return 0;
 }
