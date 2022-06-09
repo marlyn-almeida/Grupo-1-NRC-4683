@@ -1,0 +1,15 @@
+Nombre:A
+Apellido:A
+Direccion:ATelefono:12Correo:APlacaA
+
+Nombre:B
+Apellido:B
+Direccion:BTelefono:45Correo:BPlacaB
+
+Nombre:ss
+Apellido:ss
+Direccion:ss
+Telefono:12
+Correo:ss
+Placass
+

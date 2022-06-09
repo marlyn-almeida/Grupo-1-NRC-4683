@@ -1,0 +1,15 @@
+Placa: A
+Color: A
+Marca: A
+Modelo: A
+
+Placa: B
+Color: B
+Marca: B
+Modelo: B
+
+Placa: ss
+Color: ss
+Marca: ss
+Modelo: ss
+
