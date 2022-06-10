@@ -8,6 +8,10 @@
 #include <functional>
 #include "Persona.h"
 #include "ListaCircularDoble.h"
+#include <vector>
+#include "TextTable.h"
+#include <iomanip>
+#include <sstream>
 
 
 using namespace std;

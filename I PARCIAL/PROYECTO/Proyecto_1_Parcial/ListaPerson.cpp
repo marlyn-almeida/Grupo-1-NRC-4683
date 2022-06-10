@@ -4,7 +4,11 @@ ListaPerson::ListaPerson()
 {
 	primero = NULL;
 }
+/**
+ * @brief insertar Funcion para insertar datos
+ * @param  dato
 
+ */
 void ListaPerson::insertar(Persona dato) {
 	NodoPerson* nuevo = new NodoPerson(dato);
 	if (primero == NULL) {
@@ -32,6 +36,11 @@ void ListaPerson::insertar(Persona dato) {
 	
 	
 }
+/**
+ * @brief elimina Funcion para eliminar datos
+ * @param  dato
+
+ */
 
 bool ListaPerson::eliminar(string dato) {
 	if (primero == NULL) {
@@ -65,6 +74,11 @@ bool ListaPerson::eliminar(string dato) {
 	}
 }
 
+/**
+ * @brief buscar Funcion para buscar datos
+ * @param  dato
+
+ */
 bool ListaPerson::buscar(string dato) {
 	if (primero == NULL) {
 		cout << "=======NO SE ENCONTRO INFORMACION=======" << endl;
@@ -118,6 +132,12 @@ bool ListaPerson::buscar(string dato) {
 	}
 }
 
+
+/**
+ * @brief imprimir Funcion para imprimir una lista 
+ * @param lista
+
+ */
 void ListaPerson::imprimir(ListaCircularDoble lista ){
 	int contador = 1;
 	if (primero == NULL) {
@@ -137,9 +157,29 @@ void ListaPerson::imprimir(ListaCircularDoble lista ){
 	cout << ">>Placa: " << auxiliar->getDato().getPlaca() << endl;
 	cout << "\t================{ FIN }================" << endl;
 	cout << "\n=======Informacion - Vehiculo=======" << endl;
-	lista.imprimir(contador);
 	
+	std::ostringstream html;
+    
+	html << "<html>"
+    "<head><title>REPORTE</title></head>"
+    "<body>";
+    html << "<table><thead><tr>"
+    "<th> |NOMBRE|</th>"
+    "<th> |APELLIDO|</th>"
+    "<th> |DIRECCION|</th>"
+    "<th> |CORREO|</th>"
+    "<th> |PLACA|</th>"
+    "</tr></thead><tbody>";
+    html << "<tr>";
+    html << "<td> |*|  " +  auxiliar->getDato().getNombre() + "</td>";
+    html << "<td> |*|  " +  auxiliar->getDato().getApellido() + "</td>";  
+	html << "<td> |*|  " +  auxiliar->getDato().getDireccion() + "</td>";   
+    html << "<td> |*|  " +  auxiliar->getDato().getCorreo() + "</td>";
+    html << "<td> |*|  " +  auxiliar->getDato().getPlaca() + "</td>";
+	html << "<table><thead><tr>\n";
 
+	lista.imprimir(contador);
+            
 	while (auxiliar->getSiguiente() != primero) {
 		contador++;
 		auxiliar = auxiliar->getSiguiente();
@@ -153,12 +193,36 @@ void ListaPerson::imprimir(ListaCircularDoble lista ){
 		cout << ">>Placa: " << auxiliar->getDato().getPlaca() << endl;
 		cout << "\t================{ FIN }================" << endl;
 		cout << "\n=======Informacion - Vehiculo=======" << endl;
-		lista.imprimir(contador);
 		
+		
+		html << "<td> |*|  " +  auxiliar->getDato().getNombre() + "</td>";
+        html << "<td> |*|  " +  auxiliar->getDato().getApellido() + "</td>";  
+		html << "<td> |*|  " +  auxiliar->getDato().getDireccion() + "</td>";   
+        html << "<td> |*|  " +  auxiliar->getDato().getCorreo() + "</td>";
+        html << "<td> |*|  " +  auxiliar->getDato().getPlaca() + "</td>";
+        html << "<table><thead><tr>\n";
+        
+        lista.imprimir(contador);
 
 	}
-}
+	html << "</tbody></table></body></html>";
 
+    std::ostringstream plain;
+    std::string html_filename = "Reporte_Clientes.html";
+    //std::string pdf_filename = "Reporte_Clientes.pdf";
+    std::ofstream out_html(html_filename, std::ios::trunc);
+//  std::ofstream out_txt("data.txt", std::ios::trunc);
+	out_html << html.str();
+//    out_txt.close();
+	out_html.close();
+	
+	lista.imprimir();
+}
+/**
+ * @brief iterar  
+ * @param Persona
+
+ */
 void ListaPerson::iterar(std::function<void(Persona)> lambda) {
 	NodoPerson* tmp = this->primero;
 	

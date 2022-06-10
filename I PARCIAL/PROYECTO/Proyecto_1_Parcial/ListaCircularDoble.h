@@ -7,6 +7,11 @@
 #include <string>
 #include "Auto.h"
 #include "Nodo.h"
+#include <fstream>
+#include <vector>
+#include "TextTable.h"
+#include <iomanip>
+#include <sstream>
 
 using namespace std;
 
@@ -17,6 +22,7 @@ public:
 	void insertar(Auto); 
 	bool eliminar(string);
 	void imprimir(int);
+	void imprimir();
 	bool buscar(string);
 	void iterar(std::function<void(Auto)> lambda);
 private:

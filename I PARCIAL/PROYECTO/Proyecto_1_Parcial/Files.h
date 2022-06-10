@@ -10,6 +10,11 @@
 #include <windows.h>
 #include <fstream>
 
+#include <vector>
+#include "TextTable.h"
+#include <iomanip>
+#include <sstream>
+
 
 using namespace std;
 
@@ -21,4 +26,5 @@ public:
 	void read_files(Auto);
 	void check_files();
 	void create_files();
+	void create_pdf(Persona,Auto);
 };

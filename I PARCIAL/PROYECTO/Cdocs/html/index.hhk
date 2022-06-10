@@ -1,0 +1,347 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a4b1e5e2d516e20cabf1b6fe890d1289a"><param name="Name" value="Auto(string, string, string, string)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a4b1e5e2d516e20cabf1b6fe890d1289a"><param name="Name" value="Auto(string, string, string, string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#ab6989363f8752c76d97f09a19441ecd9"><param name="Name" value="getColor()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a9443e00513d0eb47606cd70abc1baf1a"><param name="Name" value="getMarca()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#ada5ebe5702ef5d1a06bb844ad8d577f6"><param name="Name" value="getModelo()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a254fa24a6b39b9c48826e619b7562115"><param name="Name" value="getPlaca()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a9f3105d9f043ae6bb8036b43b60976b7"><param name="Name" value="setColor(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#af651e53034026e5fe5bb9641d07698ac"><param name="Name" value="setMarca(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#aff89c385a4b6c92991441c549feb74de"><param name="Name" value="setModelo(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html"><param name="Name" value="Auto"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a5eeae0a80c8c0bc04f735c5532d1e881"><param name="Name" value="setPlaca(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html"><param name="Name" value="Files"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html"><param name="Name" value="Files"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a77865c7830a7c400ccf9d3da47942605"><param name="Name" value="check_files()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html"><param name="Name" value="Files"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#ad170c1151f9bca8338559b9fc073a54b"><param name="Name" value="create_files()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html"><param name="Name" value="Files"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a3e816003e38054756c8db2a53336fbb9"><param name="Name" value="read_files(Auto)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html"><param name="Name" value="Files"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a56cfda2b606dc5a78416a560624b1754"><param name="Name" value="read_files(Persona)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html"><param name="Name" value="Files"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a4ea2982ad3ffc1ff085dcfe44e89a442"><param name="Name" value="save_files(Auto)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html"><param name="Name" value="Files"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#aa7147d0dc7753b624bd4b2b61f7f034b"><param name="Name" value="save_files(Persona)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a20702e47bca609af27d062a521c3fa81"><param name="Name" value="buscar(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a6747be1a6f4d68acf77e2481189776b8"><param name="Name" value="eliminar(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a88b9231a20d3e57432ac0ae3ca3da12f"><param name="Name" value="imprimir()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a7167a787ba1a7f530e6e7c19e081995e"><param name="Name" value="imprimir(int)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a4c511c2a54640c282573b46210763c5b"><param name="Name" value="insertar(Auto)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a854eff93389d809048b6c7f5dbcce15c"><param name="Name" value="iterar(std::function&lt; void(Auto)&gt; lambda)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html"><param name="Name" value="ListaPerson"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html"><param name="Name" value="ListaPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a4050e92a453de5b5c365d1a7fc99bcec"><param name="Name" value="buscar(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html"><param name="Name" value="ListaPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a0f8132d019d3d0d82bae3b764e3f2140"><param name="Name" value="eliminar(string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html"><param name="Name" value="ListaPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a228ddad813b2a7138d25def2e2d12efb"><param name="Name" value="imprimir(ListaCircularDoble)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html"><param name="Name" value="ListaPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a19ac2cb9ebd9532bd7a6101f206c951e"><param name="Name" value="insertar(Persona)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html"><param name="Name" value="ListaPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a317efc6c6800b1f752293a5463a27c94"><param name="Name" value="iterar(std::function&lt; void(Persona)&gt; lambda)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html"><param name="Name" value="Marquee"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#a6feb4f6df57a07a6fabccf9a5032a719"><param name="Name" value="Marquee(const char *, int)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html"><param name="Name" value="Marquee"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#a6feb4f6df57a07a6fabccf9a5032a719"><param name="Name" value="Marquee(const char *, int)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html"><param name="Name" value="Marquee"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#a7df31fe1ffd8f85b304a6268cc598680"><param name="Name" value="animation()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html"><param name="Name" value="Marquee"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#aae60bfebd8c7b30ecb1d7c1eaa29a6a0"><param name="Name" value="marquee(int)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html"><param name="Name" value="Marquee"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#ab3c1da781ccc08a2d10cb0f93871da7b"><param name="Name" value="print_to(int x, int y)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html"><param name="Name" value="Marquee"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#aa4e155e1572b71b43ea796cd49fde390"><param name="Name" value="show()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_menus.html"><param name="Name" value="Menus"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_menus.html"><param name="Name" value="Menus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_menus.html#a257375001884cb89f16cc5d374a9d1df"><param name="Name" value="menu(string[], string, int, int)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_menus.html"><param name="Name" value="Menus"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_menus.html#a6e6beee096f742d194cda6e18fea9ae3"><param name="Name" value="menuTeclas(string[], int, int, ListaPerson, ListaCircularDoble)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html"><param name="Name" value="Nodo"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html"><param name="Name" value="Nodo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a8365114416f931403a7e029c07be6677"><param name="Name" value="getAnterior()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html"><param name="Name" value="Nodo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a17b82a2aa246845bdaa6a41320363d07"><param name="Name" value="getDato()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html"><param name="Name" value="Nodo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a1c1e1cd8fc4f38f64c5413dce321b7bb"><param name="Name" value="getSiguiente()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html"><param name="Name" value="Nodo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a9585dc00a21b22c925735f3f66a98d35"><param name="Name" value="setAnterior(Nodo *)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html"><param name="Name" value="Nodo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#aeccbb6876bc20ca7195f0d331d78a252"><param name="Name" value="setDato(Auto)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html"><param name="Name" value="Nodo"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#aff63c6559debcfd67f152d5e802243cd"><param name="Name" value="setSiguiente(Nodo *)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#aeded9e09ce8e3a8a4501349b0f03fd17"><param name="Name" value="NodoPerson(Persona)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#aeded9e09ce8e3a8a4501349b0f03fd17"><param name="Name" value="NodoPerson(Persona)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a03ff6160ff5f20f4f383debfde610268"><param name="Name" value="getAnterior()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a30ff20d92b8d12da9f878ead29c7bfa3"><param name="Name" value="getDato()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#aa77c85e21a3eef51dd899ec8f8eeec92"><param name="Name" value="getSiguiente()"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#aca95dbe471da26a274e2140bb10ffafd"><param name="Name" value="setAnterior(NodoPerson *)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a504691cfa19ac2e9ae8fb271cb496f76"><param name="Name" value="setDato(Persona)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html"><param name="Name" value="NodoPerson"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#ae13d12305f0931612717c5051493c6a8"><param name="Name" value="setSiguiente(NodoPerson *)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a2b30e7fe0f85085bb79b4f145c50bfe8"><param name="Name" value="Persona(std::string, std::string, std::string, long, std::string, std::string)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a2b30e7fe0f85085bb79b4f145c50bfe8"><param name="Name" value="Persona(std::string, std::string, std::string, long, std::string, std::string)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a53525215b2095be68d36f69e2f7a2103"><param name="Name" value="getApellido(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a8d7a94627f0d5ce5de3f97f8c0ff4ccd"><param name="Name" value="getCorreo(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a43af668cae9661b5fb72d31f8596b98c"><param name="Name" value="getDireccion(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a187ba880dc057e16c0e6d7263c16b412"><param name="Name" value="getNombre(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#adb1e1fb6d0d2a7b55ea962f84fd027ce"><param name="Name" value="getPlaca(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#ab3007d62a8f53e03917b92d81f612480"><param name="Name" value="getTelefono(void)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a7a6550f0902d889ea95d713aafed9dd1"><param name="Name" value="setApellido(std::string newApellido)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a2943c0a16f7b7455e58d2138cf450889"><param name="Name" value="setCorreo(std::string newCorreo)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a855063f1c97b07b1967965ad2f56a23f"><param name="Name" value="setDireccion(std::string newDireccion)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#ab4b331332fcf898454886d4ce2afbc6d"><param name="Name" value="setNombre(std::string newNombre)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#ab4cf164912ca9f92a81f42a6729d15a4"><param name="Name" value="setPlaca(std::string newPlaca)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html"><param name="Name" value="Persona"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a31aec7389acdef2afc7f8ff00d70c541"><param name="Name" value="setTelefono(long newTelefono)"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_text_table.html"><param name="Name" value="TextTable"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_utils_1_1_math.html"><param name="Name" value="Utils::Math"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_utils_1_1_string.html"><param name="Name" value="Utils::String"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_utils_1_1_validation.html"><param name="Name" value="Utils::Validation"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#a7df31fe1ffd8f85b304a6268cc598680"><param name="Name" value="animation()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a20702e47bca609af27d062a521c3fa81"><param name="Name" value="buscar(string)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a20702e47bca609af27d062a521c3fa81"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a4050e92a453de5b5c365d1a7fc99bcec"><param name="Name" value="buscar(string)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a4050e92a453de5b5c365d1a7fc99bcec"><param name="Name" value="ListaPerson"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a77865c7830a7c400ccf9d3da47942605"><param name="Name" value="check_files()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#ad170c1151f9bca8338559b9fc073a54b"><param name="Name" value="create_files()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a6747be1a6f4d68acf77e2481189776b8"><param name="Name" value="eliminar(string)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a6747be1a6f4d68acf77e2481189776b8"><param name="Name" value="ListaCircularDoble"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a0f8132d019d3d0d82bae3b764e3f2140"><param name="Name" value="eliminar(string)"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a0f8132d019d3d0d82bae3b764e3f2140"><param name="Name" value="ListaPerson"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a8365114416f931403a7e029c07be6677"><param name="Name" value="getAnterior()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a8365114416f931403a7e029c07be6677"><param name="Name" value="Nodo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a03ff6160ff5f20f4f383debfde610268"><param name="Name" value="getAnterior()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a03ff6160ff5f20f4f383debfde610268"><param name="Name" value="NodoPerson"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a53525215b2095be68d36f69e2f7a2103"><param name="Name" value="getApellido(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#ab6989363f8752c76d97f09a19441ecd9"><param name="Name" value="getColor()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a8d7a94627f0d5ce5de3f97f8c0ff4ccd"><param name="Name" value="getCorreo(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a17b82a2aa246845bdaa6a41320363d07"><param name="Name" value="getDato()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a17b82a2aa246845bdaa6a41320363d07"><param name="Name" value="Nodo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a30ff20d92b8d12da9f878ead29c7bfa3"><param name="Name" value="getDato()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a30ff20d92b8d12da9f878ead29c7bfa3"><param name="Name" value="NodoPerson"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a43af668cae9661b5fb72d31f8596b98c"><param name="Name" value="getDireccion(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a9443e00513d0eb47606cd70abc1baf1a"><param name="Name" value="getMarca()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#ada5ebe5702ef5d1a06bb844ad8d577f6"><param name="Name" value="getModelo()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a187ba880dc057e16c0e6d7263c16b412"><param name="Name" value="getNombre(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a254fa24a6b39b9c48826e619b7562115"><param name="Name" value="getPlaca()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#adb1e1fb6d0d2a7b55ea962f84fd027ce"><param name="Name" value="getPlaca(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a1c1e1cd8fc4f38f64c5413dce321b7bb"><param name="Name" value="getSiguiente()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a1c1e1cd8fc4f38f64c5413dce321b7bb"><param name="Name" value="Nodo"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#aa77c85e21a3eef51dd899ec8f8eeec92"><param name="Name" value="getSiguiente()"></OBJECT>
+  <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#aa77c85e21a3eef51dd899ec8f8eeec92"><param name="Name" value="NodoPerson"></OBJECT>
+  </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#ab3007d62a8f53e03917b92d81f612480"><param name="Name" value="getTelefono(void)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a88b9231a20d3e57432ac0ae3ca3da12f"><param name="Name" value="imprimir()"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a228ddad813b2a7138d25def2e2d12efb"><param name="Name" value="imprimir(ListaCircularDoble)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a7167a787ba1a7f530e6e7c19e081995e"><param name="Name" value="imprimir(int)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a4c511c2a54640c282573b46210763c5b"><param name="Name" value="insertar(Auto)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a19ac2cb9ebd9532bd7a6101f206c951e"><param name="Name" value="insertar(Persona)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_circular_doble.html#a854eff93389d809048b6c7f5dbcce15c"><param name="Name" value="iterar(std::function&lt; void(Auto)&gt; lambda)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_lista_person.html#a317efc6c6800b1f752293a5463a27c94"><param name="Name" value="iterar(std::function&lt; void(Persona)&gt; lambda)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#aae60bfebd8c7b30ecb1d7c1eaa29a6a0"><param name="Name" value="marquee(int)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_menus.html#a257375001884cb89f16cc5d374a9d1df"><param name="Name" value="menu(string[], string, int, int)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_menus.html#a6e6beee096f742d194cda6e18fea9ae3"><param name="Name" value="menuTeclas(string[], int, int, ListaPerson, ListaCircularDoble)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#ab3c1da781ccc08a2d10cb0f93871da7b"><param name="Name" value="print_to(int x, int y)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a3e816003e38054756c8db2a53336fbb9"><param name="Name" value="read_files(Auto)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a56cfda2b606dc5a78416a560624b1754"><param name="Name" value="read_files(Persona)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#a4ea2982ad3ffc1ff085dcfe44e89a442"><param name="Name" value="save_files(Auto)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_files.html#aa7147d0dc7753b624bd4b2b61f7f034b"><param name="Name" value="save_files(Persona)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#a9585dc00a21b22c925735f3f66a98d35"><param name="Name" value="setAnterior(Nodo *)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#aca95dbe471da26a274e2140bb10ffafd"><param name="Name" value="setAnterior(NodoPerson *)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a7a6550f0902d889ea95d713aafed9dd1"><param name="Name" value="setApellido(std::string newApellido)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a9f3105d9f043ae6bb8036b43b60976b7"><param name="Name" value="setColor(string)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a2943c0a16f7b7455e58d2138cf450889"><param name="Name" value="setCorreo(std::string newCorreo)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#aeccbb6876bc20ca7195f0d331d78a252"><param name="Name" value="setDato(Auto)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#a504691cfa19ac2e9ae8fb271cb496f76"><param name="Name" value="setDato(Persona)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a855063f1c97b07b1967965ad2f56a23f"><param name="Name" value="setDireccion(std::string newDireccion)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#af651e53034026e5fe5bb9641d07698ac"><param name="Name" value="setMarca(string)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#aff89c385a4b6c92991441c549feb74de"><param name="Name" value="setModelo(string)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#ab4b331332fcf898454886d4ce2afbc6d"><param name="Name" value="setNombre(std::string newNombre)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#ab4cf164912ca9f92a81f42a6729d15a4"><param name="Name" value="setPlaca(std::string newPlaca)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_auto.html#a5eeae0a80c8c0bc04f735c5532d1e881"><param name="Name" value="setPlaca(string)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo.html#aff63c6559debcfd67f152d5e802243cd"><param name="Name" value="setSiguiente(Nodo *)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_nodo_person.html#ae13d12305f0931612717c5051493c6a8"><param name="Name" value="setSiguiente(NodoPerson *)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_persona.html#a31aec7389acdef2afc7f8ff00d70c541"><param name="Name" value="setTelefono(long newTelefono)"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Local" value="class_marquee.html#aa4e155e1572b71b43ea796cd49fde390"><param name="Name" value="show()"></OBJECT>
+</UL>
+</BODY>
+</HTML>

@@ -111,6 +111,7 @@
 	        person.setApellido(validar_char("\n\tApellido: "));
 	        person.setDireccion(validar_string("\n\tDireccion: "));
 	        person.setCorreo(validar_string("\n\tCorreo: "));
+	        
 	        person.setTelefono(validar_int_P("\n\tTelefono: "));
 	        printf("\n=======================================");
 			 
@@ -123,7 +124,7 @@
 	        a.setPlaca(placa);
 			a.setColor(validar_char("\n\tColor: "));
 			a.setMarca(validar_char("\n\tMarca: "));
-			a.setModelo(validar_char("\n\tModelo: "));
+			a.setModelo(validar_char_Num("\n\tModelo: "));
 			printf("\n=======================================\n");
 			
 			lista.insertar(person);//insertar
@@ -131,6 +132,7 @@
 			
 			files.save_files(person);
 			files.save_files(a);
+//			files.create_pdf(person,a);
 				
 	        system("pause");
 	        menuTeclas(opciones, num, tam, lista, lis_a);
@@ -186,39 +188,7 @@
 	    	menuTeclas(opciones, num, tam, lista, lis_a);
 	        break;
 		}
-	    case 4: {//Eliminar primer nodo
-	        system("cls");
-	        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
-	        cout<<"\n\t\tGenerar Reporte!!\n"<<endl;
-	        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-	        
-	        
-	    
-	        system("pause");
-	        menuTeclas(opciones, num, tam, lista, lis_a);
-	        break;
-		}
-	    case 5: {//Eliminar ultimo nodo
-	        system("cls");
-	        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
-	        cout<<"\n\t\tEliminar ultimo nodo\n"<<endl;
-	        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-	       
-	       
-	       
-	        system("pause");
-	        menuTeclas(opciones, num, tam, lista, lis_a);
-	        break;
-		}
-	    case 6: {//Eliminar un nodo X
-	        system("cls");
-	        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
-	        cout<<"\n\t\tEliminar un nodo X\n"<<endl;
-	        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 15);
-	        
-	        break;
-		}
-		case 7: {//Salir
+		case 4: {//Salir
 	        system("cls");
 	        SetConsoleTextAttribute(GetStdHandle(STD_OUTPUT_HANDLE), 10);
 	        cout<<"\n\t\t...Gracias por usar mi programa...\n"<<endl;

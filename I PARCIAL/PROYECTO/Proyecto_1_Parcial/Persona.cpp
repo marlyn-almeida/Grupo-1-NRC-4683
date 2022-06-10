@@ -20,14 +20,16 @@ Persona::Persona()
 	this->correo = " ";
 	this->placa = " ";
 }
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::Persona(const Persona& oldPersona)
-// Purpose:    Implementation of Persona::Persona()
-// Parameters:
-// - oldPersona
-// Return:     
-////////////////////////////////////////////////////////////////////////
+/**
+ * @brief Persona 
+ * @param Nombre_
+ * @param Apellido_
+ * @param Direccion_
+ * @param Telefono_
+ * @param Correo_
+ * @param Placa_
 
+ */
 Persona::Persona(std::string Nombre_, std::string Apellido_, std::string Direccion_, long Telefono_, std::string Correo_, std::string Placa_) {
 	this->Nombre = Nombre_;
 	this->Apellido = Apellido_;
@@ -37,147 +39,133 @@ Persona::Persona(std::string Nombre_, std::string Apellido_, std::string Direcci
 	this->placa = Placa_;
 
 }
+/**
+ * @brief getNombre
+ * @return Nombre
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::getNombre()
-// Purpose:    Implementation of Persona::getNombre()
-// Return:     std::string
-////////////////////////////////////////////////////////////////////////
+ */
 
 std::string Persona::getNombre(void)
 {
    return this->Nombre;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::setNombre(std::string newNombre)
-// Purpose:    Implementation of Persona::setNombre()
-// Parameters:
-// - newNombre
-// Return:     void
-////////////////////////////////////////////////////////////////////////
+/**
+ * @brief setNombre
+ * @param newNombre
+ * @return newNombre
+
+ */
 
 void Persona::setNombre(std::string newNombre)
 {
    this->Nombre = newNombre;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::getApellido()
-// Purpose:    Implementation of Persona::getApellido()
-// Return:     std::string
-////////////////////////////////////////////////////////////////////////
 
+/**
+ * @brief getApellido
+ * @return Apellid
+
+ */
 std::string Persona::getApellido(void)
 {
    return this->Apellido;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::setApellido(std::string newApellido)
-// Purpose:    Implementation of Persona::setApellido()
-// Parameters:
-// - newApellido
-// Return:     void
-////////////////////////////////////////////////////////////////////////
+/**
+ * @brief setApellid
+ * @param newApellido
 
+ */
 void Persona::setApellido(std::string newApellido)
 {
    this->Apellido = newApellido;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::getDireccion()
-// Purpose:    Implementation of Persona::getDireccion()
-// Return:     std::string
-////////////////////////////////////////////////////////////////////////
+/**
+ * @brief getDireccion
+ * @return direccion
 
+ */
 std::string Persona::getDireccion(void)
 {
    return this->direccion;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::setDireccion(std::string newDireccion)
-// Purpose:    Implementation of Persona::setDireccion()
-// Parameters:
-// - newDireccion
-// Return:     void
-////////////////////////////////////////////////////////////////////////
+/**
+ * @brief setDireccion
+ * @param newDireccion
+ * @return newDireccion
 
+ */
 void Persona::setDireccion(std::string newDireccion)
 {
    this->direccion = newDireccion;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::getTelefono()
-// Purpose:    Implementation of Persona::getTelefono()
-// Return:     long
-////////////////////////////////////////////////////////////////////////
+/**
+ * @brief getTelefono
+ * @return telefono
 
+ */
 long Persona::getTelefono(void)
 {
    return this->telefono;
 }
+/**
+ * @brief setTelefono
+ * @param newTelefono
+ * @return newTelefono
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::setTelefono(long newTelefono)
-// Purpose:    Implementation of Persona::setTelefono()
-// Parameters:
-// - newTelefono
-// Return:     void
-////////////////////////////////////////////////////////////////////////
+ *//**
+ * @brief setTelefono
+ * @param newTelefono
+ * @return newTelefono
 
+ */
 void Persona::setTelefono(long newTelefono)
 {
    this->telefono = newTelefono;
 }
+/**
+ * @brief getCorreo
+ * @return correo
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::getCorreo()
-// Purpose:    Implementation of Persona::getCorreo()
-// Return:     std::string
-////////////////////////////////////////////////////////////////////////
-
+ */
 std::string Persona::getCorreo(void)
 {
    return this->correo;
 }
+/**
+ * @brief setCorreo
+ * @param newCorreo
+ * @return newCorreo
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::setCorreo(std::string newCorreo)
-// Purpose:    Implementation of Persona::setCorreo()
-// Parameters:
-// - newCorreo
-// Return:     void
-////////////////////////////////////////////////////////////////////////
-
+ */
 void Persona::setCorreo(std::string newCorreo)
 {
    this->correo = newCorreo;
 }
 
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::setPlaca(std::string newPlaca)
-// Purpose:    Implementation of Persona::setPlaca()
-// Parameters:
-// - newPlaca
-// Return:     void
-////////////////////////////////////////////////////////////////////////
 
+/**
+ * @brief setPlaca
+ * @param newPlaca
+ * @return newPlaca
+
+ */
 void Persona::setPlaca(std::string newPlaca)
 {
    this->placa = newPlaca;
 }
 
-////////////////////////////////////////////////////////////////////////
-// Name:       Persona::getDireccion()
-// Purpose:    Implementation of Persona::getDireccion()
-// Return:     std::string
-////////////////////////////////////////////////////////////////////////
+/**
+ * @brief getPlaca
+ * @return placa
 
+ */
 std::string Persona::getPlaca(void)
 {
    return this->placa;

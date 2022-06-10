@@ -13,6 +13,10 @@
 #include <vector>
 #include "Auto.h"
 #include "Files.h"
+#include <Windows.h>
+#include <time.h>
+
+
 
 using namespace std;
 

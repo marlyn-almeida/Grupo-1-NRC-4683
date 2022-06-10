@@ -5,6 +5,11 @@
 		primero = NULL;
 	}
 	
+	/**
+ * @brief insertar Funcion para insertar datos
+ * @param dato
+
+ */
 	void ListaCircularDoble::insertar(Auto dato) {
 		Nodo* nuevo = new Nodo(dato);
 		if (primero == NULL) {
@@ -28,6 +33,12 @@
 		}
 	}
 	
+/**
+ * @brief eliminar Funcion para insertar cliente
+ * @param dato
+
+
+ */
 	bool ListaCircularDoble::eliminar(string dato) {
 		if (primero == NULL) {
 			cout<<"\n\t\t No existen Datos del Cliente !! \n"<<endl;
@@ -69,7 +80,12 @@
 			}
 		}
 	}
-	
+/**
+ * @brief buscar Funcion para buscar un dato
+ * @param dato
+
+
+ */	
 	bool ListaCircularDoble::buscar(string dato) {
 		if (primero == NULL) {
 			return false;
@@ -111,9 +127,15 @@
 			}
 		}
 	}
-	
+
+/**
+ * @brief imprimir Funcion para imprimior los datos
+ * @param evalue
+
+ */	
 	void ListaCircularDoble::imprimir(int evalue) {
 		int nAuto = 1;
+		std::ostringstream html;
 		if (primero == NULL) {
 			cout << "La lista esta vacia";
 			system("pause");
@@ -126,6 +148,7 @@
 			cout << ">>Marca: " << auxiliar->getDato().getMarca() ;
 			cout << ">>Modelo: " << auxiliar->getDato().getModelo() << endl;
 			cout << "\t================{ FIN }================" << endl;
+			
 		}
 		
 		while (auxiliar->getSiguiente() != primero) {
@@ -137,11 +160,88 @@
 				cout << ">>Marca: " << auxiliar->getDato().getMarca() ;
 				cout << ">>Modelo: " << auxiliar->getDato().getModelo() << endl;
 				cout << "\t================{ FIN }================" << endl;
+			}
+		}	
+}
+
+/**
+ * @brief imprimir Funcion para imprimior los datos
+ * @param evalue
+
+ */	
+void ListaCircularDoble::imprimir() {
+		
+		std::ostringstream html;
+		if (primero == NULL) {
+			cout << "La lista esta vacia";
+			system("pause");
+			return;
 		}
+		Nodo* auxiliar = primero;
+		cout << ">>Placa: " << auxiliar->getDato().getPlaca() ;
+		cout << ">>Color: " << auxiliar->getDato().getColor() ;
+		cout << ">>Marca: " << auxiliar->getDato().getMarca() ;
+		cout << ">>Modelo: " << auxiliar->getDato().getModelo() << endl;
+		cout << "\t================{ FIN }================" << endl;
+			
+		    
+		html << "<html>"
+	    "<head><title>REPORTE</title></head>"
+	    "<body>";
+	    html << "<table><thead><tr>"
+	    "<th> |PLACA|</th>"
+	    "<th> |COLOR|</th>"
+	    "<th> |MARCA|</th>"
+	    "<th> |MODELO|</th>"
+		"</tr></thead><tbody>";
+	    html << "<tr>";
+	    html << "<td> |*|  " +  auxiliar->getDato().getPlaca() + "</td>";
+	    html << "<td> |*|  " +  auxiliar->getDato().getColor() + "</td>";  
+		html << "<td> |*|  " +  auxiliar->getDato().getMarca() + "</td>";   
+	    html << "<td> |*|  " +  auxiliar->getDato().getModelo() + "</td>";
+		html << "<table><thead><tr>\n";
+		    
+		
+		while (auxiliar->getSiguiente() != primero) {
+	
+			auxiliar = auxiliar->getSiguiente();
+			
+			cout << ">>Placa: " << auxiliar->getDato().getPlaca() ;
+			cout << ">>Color: " << auxiliar->getDato().getColor() ;
+			cout << ">>Marca: " << auxiliar->getDato().getMarca() ;
+			cout << ">>Modelo: " << auxiliar->getDato().getModelo() << endl;
+			cout << "\t================{ FIN }================" << endl;
+			
+			"<th> |PLACA|</th>"
+		    "<th> |COLOR|</th>"
+		    "<th> |MARCA|</th>"
+		    "<th> |MODELO|</th>"
+			"</tr></thead><tbody>";
+		    html << "<tr>";
+		    html << "<td> |*|   " +  auxiliar->getDato().getPlaca() + "</td>";
+		    html << "<td> |*|  " +  auxiliar->getDato().getColor() + "</td>";  
+			html << "<td> |*|  " +  auxiliar->getDato().getMarca() + "</td>";   
+		    html << "<td> |*|  " +  auxiliar->getDato().getModelo() + "</td>";
+			html << "<table><thead><tr>\n";
+			
 		}
+		html << "</tbody></table></body></html>";
+
+	    std::ostringstream plain;
+	    std::string html_filename = "Reporte_Autos.html";
+	    //std::string pdf_filename = "Reporte_Clientes.pdf";
+	    std::ofstream out_html(html_filename, std::ios::trunc);
+	//  std::ofstream out_txt("data.txt", std::ios::trunc);
+		out_html << html.str();
+//	    out_txt.close();
+		out_html.close();
 		
 }
 
+/**
+ * @brief iterar
+ * @param Auto
+ */
 void ListaCircularDoble::iterar(std::function<void(Auto)> lambda) {
 	Nodo* tmp = this->primero;
 	
