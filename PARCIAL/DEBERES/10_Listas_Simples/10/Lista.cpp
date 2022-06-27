@@ -3,14 +3,14 @@ UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
 
 listas simples
 Autor(es): George Chicango y Marlyn Almeida
-Fecha de creación: 19/05/2022
-Fecha de modificación:19/05/2022
+Fecha de creaciÃ³n: 19/05/2022
+Fecha de modificaciÃ³n:19/05/2022
 Grupo #1
 Github del grupo:https://github.com/marlyn-almeida/Grupo-1-NRC-4683.git
-Versión:1
+VersiÃ³n:1
 Estructura de Datos 4683
 
-
+*
 */
 
 #include "Lista.h"
